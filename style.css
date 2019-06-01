@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#right-panel{
+    position: fixed;
+    width: 204px;
+    height: 500px;
+    right: 0;
+    top: 0;
+}
+
+#main-panel{
+    height: 500px;
+    margin-right: 204px;
+}
+
+#head{
+    position: fixed;
+    width: 100%;
+    background-color: #3578E5;
+    width: calc(100% - 204px);
+}
+#head ul.menu{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+#head ul.menu li {
+    display: inline-block;
+}
+#head ul.menu a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.container{
+    width: 979px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-white{
+    color: white;
+}
+.float-right{
+    float: right;
+}
