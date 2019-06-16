@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #e9ebee;
 }
 #right-panel{
     position: fixed;
@@ -33,6 +34,13 @@ body{
 #head ul.menu a{
     text-decoration: none;
     font-weight: bold;
+    line-height: 34px;
+}
+.logo{
+    font-size: large;
+}
+#main-content{
+    padding-top: 44px;
 }
 .container{
     width: 979px;
@@ -44,4 +52,50 @@ body{
 }
 .float-right{
     float: right;
+}
+.float-left{
+    float: left;
+}
+#left-column{
+    width: 160px;
+    height: 100px;
+}
+#left-column ul a{
+    text-decoration: none;
+    display: block;
+    padding: 3px;
+}
+#left-column ul a.active, #left-column ul a:hover{
+    border: 1px solid #dddfe2;
+    background-color: #f5f6f7;
+    border-radius: 2px;
+}
+#right-column{
+    width: 300px;
+    height: 100px;
+}
+#center-column{
+    width: 519px;
+    height: 100px;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.clearfix{
+    clear: both;
+}
+.m-0{
+    margin: 0;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.p-0{
+    padding: 0;
+}
+.list-style-none{
+    list-style: none;
+}
+.text-decoration-none{
+    text-decoration: none;
 }
