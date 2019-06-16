@@ -99,3 +99,14 @@ body{
 .text-decoration-none{
     text-decoration: none;
 }
+
+.card{
+    background-color: white;
+    border: solid 1px #dddfe2;
+    border-radius: 4px;
+}
+.card .card-header{
+    background-color: #f5f6f7;
+    padding: 6px;
+    border-bottom: solid 1px #dddfe2;
+}
