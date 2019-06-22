@@ -78,6 +78,8 @@ body{
 #center-column{
     width: 519px;
     height: 100px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .d-inline-block{
     display: inline-block;
