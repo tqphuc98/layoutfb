@@ -113,3 +113,17 @@ body{
     padding: 6px;
     border-bottom: solid 1px #dddfe2;
 }
+.card .card-body{
+    padding: 6px;
+}
+.create-new-status .avatar{
+    vertical-align: top;
+}
+.new-status-content{
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: x-large;
+    width: 441px;
+    padding: 0;
+}
