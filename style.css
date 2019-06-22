@@ -84,6 +84,15 @@ body{
 .d-inline-block{
     display: inline-block;
 }
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.bg-white{
+    background-color: white;
+}
 .clearfix{
     clear: both;
 }
@@ -95,6 +104,9 @@ body{
 }
 .p-0{
     padding: 0;
+}
+.p-10{
+    padding: 10px;
 }
 .list-style-none{
     list-style: none;
@@ -126,4 +138,22 @@ body{
     font-size: x-large;
     width: 441px;
     padding: 0;
+}
+.new-status-btn{
+    background-color: #f5f6f7;
+    padding: 6px;
+    border-radius: 14px !important;
+}
+.new-status-btn:hover{
+    background-color: #e9ebee;
+    cursor: pointer;
+}
+.story-cover{
+    width: 100px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.story-cover:hover{
+
 }
