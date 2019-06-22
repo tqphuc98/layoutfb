@@ -64,9 +64,10 @@ body{
     text-decoration: none;
     display: block;
     padding: 3px;
+    border: 1px solid transparent;
 }
 #left-column ul a.active, #left-column ul a:hover{
-    border: 1px solid #dddfe2;
+    border-color: #dddfe2;
     background-color: #f5f6f7;
     border-radius: 2px;
 }
